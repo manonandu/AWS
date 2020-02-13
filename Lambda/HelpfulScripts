@@ -1,3 +1,8 @@
-Download a Lambda layer as a zip file using cURL
+Pre-requisites to run any of the following commands:
+
+* AWS CLI
+* cURL
+
+----Download a Lambda layer as a zip file using cURL----
 
 curl $(aws lambda get-layer-version-by-arn --arn LAYER_ARN_GOES_HERE --query Content.Location --output text) -o YOU_PREFERRED_FILE_NAME.zip
