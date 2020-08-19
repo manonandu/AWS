@@ -2,7 +2,7 @@
 	"info": {
 		"_postman_id": "8c69039d-bbd6-4a83-917c-bc60c12c0066",
 		"name": "CognitoAPITestSuite",
-		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
 	},
 	"item": [
 		{
@@ -13,12 +13,7 @@
 					"request": {
 						"method": "GET",
 						"header": [],
-						"url": {
-							"raw": "{{BaseUri_PreRegion}}{{UserPoolRegion}}{{BaseUri_PostRegion}}",
-							"host": [
-								"{{BaseUri_PreRegion}}{{UserPoolRegion}}{{BaseUri_PostRegion}}"
-							]
-						},
+						"url": "{{BaseUri_PreRegion}}{{UserPoolRegion}}{{BaseUri_PostRegion}}",
 						"description": "Adds additional user attributes to the user pool schema."
 					},
 					"response": []
@@ -28,12 +23,7 @@
 					"request": {
 						"method": "GET",
 						"header": [],
-						"url": {
-							"raw": "{{BaseUri_PreRegion}}{{UserPoolRegion}}{{BaseUri_PostRegion}}",
-							"host": [
-								"{{BaseUri_PreRegion}}{{UserPoolRegion}}{{BaseUri_PostRegion}}"
-							]
-						},
+						"url": "{{BaseUri_PreRegion}}{{UserPoolRegion}}{{BaseUri_PostRegion}}",
 						"description": "Returns a unique generated shared secret key code for the user account. The request takes an access token or a session string, but not both."
 					},
 					"response": []
@@ -43,12 +33,7 @@
 					"request": {
 						"method": "GET",
 						"header": [],
-						"url": {
-							"raw": "{{BaseUri_PreRegion}}{{UserPoolRegion}}{{BaseUri_PostRegion}}",
-							"host": [
-								"{{BaseUri_PreRegion}}{{UserPoolRegion}}{{BaseUri_PostRegion}}"
-							]
-						},
+						"url": "{{BaseUri_PreRegion}}{{UserPoolRegion}}{{BaseUri_PostRegion}}",
 						"description": "Changes the password for a specified user in a user pool."
 					},
 					"response": []
@@ -58,12 +43,7 @@
 					"request": {
 						"method": "GET",
 						"header": [],
-						"url": {
-							"raw": "{{BaseUri_PreRegion}}{{UserPoolRegion}}{{BaseUri_PostRegion}}",
-							"host": [
-								"{{BaseUri_PreRegion}}{{UserPoolRegion}}{{BaseUri_PostRegion}}"
-							]
-						},
+						"url": "{{BaseUri_PreRegion}}{{UserPoolRegion}}{{BaseUri_PostRegion}}",
 						"description": "Confirms tracking of the device. This API call is the call that begins device tracking."
 					},
 					"response": []
@@ -73,12 +53,7 @@
 					"request": {
 						"method": "GET",
 						"header": [],
-						"url": {
-							"raw": "{{BaseUri_PreRegion}}{{UserPoolRegion}}{{BaseUri_PostRegion}}",
-							"host": [
-								"{{BaseUri_PreRegion}}{{UserPoolRegion}}{{BaseUri_PostRegion}}"
-							]
-						},
+						"url": "{{BaseUri_PreRegion}}{{UserPoolRegion}}{{BaseUri_PostRegion}}",
 						"description": "Allows a user to enter a confirmation code to reset a forgotten password."
 					},
 					"response": []
@@ -100,12 +75,7 @@
 					"request": {
 						"method": "GET",
 						"header": [],
-						"url": {
-							"raw": "{{BaseUri_PreRegion}}{{UserPoolRegion}}{{BaseUri_PostRegion}}",
-							"host": [
-								"{{BaseUri_PreRegion}}{{UserPoolRegion}}{{BaseUri_PostRegion}}"
-							]
-						},
+						"url": "{{BaseUri_PreRegion}}{{UserPoolRegion}}{{BaseUri_PostRegion}}",
 						"description": "Confirms registration of a user and handles the existing alias from a previous user."
 					},
 					"response": []
@@ -115,12 +85,7 @@
 					"request": {
 						"method": "GET",
 						"header": [],
-						"url": {
-							"raw": "{{BaseUri_PreRegion}}{{UserPoolRegion}}{{BaseUri_PostRegion}}",
-							"host": [
-								"{{BaseUri_PreRegion}}{{UserPoolRegion}}{{BaseUri_PostRegion}}"
-							]
-						},
+						"url": "{{BaseUri_PreRegion}}{{UserPoolRegion}}{{BaseUri_PostRegion}}",
 						"description": "Creates a new group in the specified user pool.\n\nCalling this action requires developer credentials."
 					},
 					"response": []
@@ -130,12 +95,7 @@
 					"request": {
 						"method": "GET",
 						"header": [],
-						"url": {
-							"raw": "{{BaseUri_PreRegion}}{{UserPoolRegion}}{{BaseUri_PostRegion}}",
-							"host": [
-								"{{BaseUri_PreRegion}}{{UserPoolRegion}}{{BaseUri_PostRegion}}"
-							]
-						},
+						"url": "{{BaseUri_PreRegion}}{{UserPoolRegion}}{{BaseUri_PostRegion}}",
 						"description": "Creates an identity provider for a user pool."
 					},
 					"response": []
@@ -145,12 +105,7 @@
 					"request": {
 						"method": "GET",
 						"header": [],
-						"url": {
-							"raw": "{{BaseUri_PreRegion}}{{UserPoolRegion}}{{BaseUri_PostRegion}}",
-							"host": [
-								"{{BaseUri_PreRegion}}{{UserPoolRegion}}{{BaseUri_PostRegion}}"
-							]
-						},
+						"url": "{{BaseUri_PreRegion}}{{UserPoolRegion}}{{BaseUri_PostRegion}}",
 						"description": "Creates a new OAuth2.0 resource server and defines custom scopes in it."
 					},
 					"response": []
@@ -160,12 +115,7 @@
 					"request": {
 						"method": "GET",
 						"header": [],
-						"url": {
-							"raw": "{{BaseUri_PreRegion}}{{UserPoolRegion}}{{BaseUri_PostRegion}}",
-							"host": [
-								"{{BaseUri_PreRegion}}{{UserPoolRegion}}{{BaseUri_PostRegion}}"
-							]
-						},
+						"url": "{{BaseUri_PreRegion}}{{UserPoolRegion}}{{BaseUri_PostRegion}}",
 						"description": "Creates the user import job."
 					},
 					"response": []
@@ -175,12 +125,7 @@
 					"request": {
 						"method": "GET",
 						"header": [],
-						"url": {
-							"raw": "{{BaseUri_PreRegion}}{{UserPoolRegion}}{{BaseUri_PostRegion}}",
-							"host": [
-								"{{BaseUri_PreRegion}}{{UserPoolRegion}}{{BaseUri_PostRegion}}"
-							]
-						},
+						"url": "{{BaseUri_PreRegion}}{{UserPoolRegion}}{{BaseUri_PostRegion}}",
 						"description": "Creates a new Amazon Cognito user pool and sets the password policy for the pool."
 					},
 					"response": []
@@ -190,12 +135,7 @@
 					"request": {
 						"method": "GET",
 						"header": [],
-						"url": {
-							"raw": "{{BaseUri_PreRegion}}{{UserPoolRegion}}{{BaseUri_PostRegion}}",
-							"host": [
-								"{{BaseUri_PreRegion}}{{UserPoolRegion}}{{BaseUri_PostRegion}}"
-							]
-						},
+						"url": "{{BaseUri_PreRegion}}{{UserPoolRegion}}{{BaseUri_PostRegion}}",
 						"description": "Creates the user pool client."
 					},
 					"response": []
@@ -205,12 +145,7 @@
 					"request": {
 						"method": "GET",
 						"header": [],
-						"url": {
-							"raw": "{{BaseUri_PreRegion}}{{UserPoolRegion}}{{BaseUri_PostRegion}}",
-							"host": [
-								"{{BaseUri_PreRegion}}{{UserPoolRegion}}{{BaseUri_PostRegion}}"
-							]
-						},
+						"url": "{{BaseUri_PreRegion}}{{UserPoolRegion}}{{BaseUri_PostRegion}}",
 						"description": "Creates a new domain for a user pool."
 					},
 					"response": []
@@ -220,12 +155,7 @@
 					"request": {
 						"method": "GET",
 						"header": [],
-						"url": {
-							"raw": "{{BaseUri_PreRegion}}{{UserPoolRegion}}{{BaseUri_PostRegion}}",
-							"host": [
-								"{{BaseUri_PreRegion}}{{UserPoolRegion}}{{BaseUri_PostRegion}}"
-							]
-						},
+						"url": "{{BaseUri_PreRegion}}{{UserPoolRegion}}{{BaseUri_PostRegion}}",
 						"description": "Deletes a group. Currently only groups with no members can be deleted.\n\nCalling this action requires developer credentials."
 					},
 					"response": []
@@ -235,12 +165,7 @@
 					"request": {
 						"method": "GET",
 						"header": [],
-						"url": {
-							"raw": "{{BaseUri_PreRegion}}{{UserPoolRegion}}{{BaseUri_PostRegion}}",
-							"host": [
-								"{{BaseUri_PreRegion}}{{UserPoolRegion}}{{BaseUri_PostRegion}}"
-							]
-						},
+						"url": "{{BaseUri_PreRegion}}{{UserPoolRegion}}{{BaseUri_PostRegion}}",
 						"description": "Deletes an identity provider for a user pool."
 					},
 					"response": []
@@ -250,12 +175,7 @@
 					"request": {
 						"method": "GET",
 						"header": [],
-						"url": {
-							"raw": "{{BaseUri_PreRegion}}{{UserPoolRegion}}{{BaseUri_PostRegion}}",
-							"host": [
-								"{{BaseUri_PreRegion}}{{UserPoolRegion}}{{BaseUri_PostRegion}}"
-							]
-						},
+						"url": "{{BaseUri_PreRegion}}{{UserPoolRegion}}{{BaseUri_PostRegion}}",
 						"description": "Deletes a resource server."
 					},
 					"response": []
@@ -265,12 +185,7 @@
 					"request": {
 						"method": "GET",
 						"header": [],
-						"url": {
-							"raw": "{{BaseUri_PreRegion}}{{UserPoolRegion}}{{BaseUri_PostRegion}}",
-							"host": [
-								"{{BaseUri_PreRegion}}{{UserPoolRegion}}{{BaseUri_PostRegion}}"
-							]
-						},
+						"url": "{{BaseUri_PreRegion}}{{UserPoolRegion}}{{BaseUri_PostRegion}}",
 						"description": "Allows a user to delete himself or herself."
 					},
 					"response": []
@@ -280,12 +195,7 @@
 					"request": {
 						"method": "GET",
 						"header": [],
-						"url": {
-							"raw": "{{BaseUri_PreRegion}}{{UserPoolRegion}}{{BaseUri_PostRegion}}",
-							"host": [
-								"{{BaseUri_PreRegion}}{{UserPoolRegion}}{{BaseUri_PostRegion}}"
-							]
-						},
+						"url": "{{BaseUri_PreRegion}}{{UserPoolRegion}}{{BaseUri_PostRegion}}",
 						"description": "Deletes the specified Amazon Cognito user pool."
 					},
 					"response": []
@@ -295,12 +205,7 @@
 					"request": {
 						"method": "GET",
 						"header": [],
-						"url": {
-							"raw": "{{BaseUri_PreRegion}}{{UserPoolRegion}}{{BaseUri_PostRegion}}",
-							"host": [
-								"{{BaseUri_PreRegion}}{{UserPoolRegion}}{{BaseUri_PostRegion}}"
-							]
-						},
+						"url": "{{BaseUri_PreRegion}}{{UserPoolRegion}}{{BaseUri_PostRegion}}",
 						"description": "Allows the developer to delete the user pool client."
 					},
 					"response": []
@@ -310,12 +215,7 @@
 					"request": {
 						"method": "GET",
 						"header": [],
-						"url": {
-							"raw": "{{BaseUri_PreRegion}}{{UserPoolRegion}}{{BaseUri_PostRegion}}",
-							"host": [
-								"{{BaseUri_PreRegion}}{{UserPoolRegion}}{{BaseUri_PostRegion}}"
-							]
-						},
+						"url": "{{BaseUri_PreRegion}}{{UserPoolRegion}}{{BaseUri_PostRegion}}",
 						"description": "Deletes a domain for a user pool."
 					},
 					"response": []
@@ -325,12 +225,7 @@
 					"request": {
 						"method": "GET",
 						"header": [],
-						"url": {
-							"raw": "{{BaseUri_PreRegion}}{{UserPoolRegion}}{{BaseUri_PostRegion}}",
-							"host": [
-								"{{BaseUri_PreRegion}}{{UserPoolRegion}}{{BaseUri_PostRegion}}"
-							]
-						},
+						"url": "{{BaseUri_PreRegion}}{{UserPoolRegion}}{{BaseUri_PostRegion}}",
 						"description": "Gets information about a specific identity provider."
 					},
 					"response": []
@@ -340,12 +235,7 @@
 					"request": {
 						"method": "GET",
 						"header": [],
-						"url": {
-							"raw": "{{BaseUri_PreRegion}}{{UserPoolRegion}}{{BaseUri_PostRegion}}",
-							"host": [
-								"{{BaseUri_PreRegion}}{{UserPoolRegion}}{{BaseUri_PostRegion}}"
-							]
-						},
+						"url": "{{BaseUri_PreRegion}}{{UserPoolRegion}}{{BaseUri_PostRegion}}",
 						"description": "Confirms registration of a user and handles the existing alias from a previous user."
 					},
 					"response": []
@@ -355,12 +245,7 @@
 					"request": {
 						"method": "GET",
 						"header": [],
-						"url": {
-							"raw": "{{BaseUri_PreRegion}}{{UserPoolRegion}}{{BaseUri_PostRegion}}",
-							"host": [
-								"{{BaseUri_PreRegion}}{{UserPoolRegion}}{{BaseUri_PostRegion}}"
-							]
-						},
+						"url": "{{BaseUri_PreRegion}}{{UserPoolRegion}}{{BaseUri_PostRegion}}",
 						"description": "Confirms registration of a user and handles the existing alias from a previous user."
 					},
 					"response": []
@@ -370,12 +255,7 @@
 					"request": {
 						"method": "GET",
 						"header": [],
-						"url": {
-							"raw": "{{BaseUri_PreRegion}}{{UserPoolRegion}}{{BaseUri_PostRegion}}",
-							"host": [
-								"{{BaseUri_PreRegion}}{{UserPoolRegion}}{{BaseUri_PostRegion}}"
-							]
-						},
+						"url": "{{BaseUri_PreRegion}}{{UserPoolRegion}}{{BaseUri_PostRegion}}",
 						"description": "Confirms registration of a user and handles the existing alias from a previous user."
 					},
 					"response": []
@@ -385,12 +265,7 @@
 					"request": {
 						"method": "GET",
 						"header": [],
-						"url": {
-							"raw": "{{BaseUri_PreRegion}}{{UserPoolRegion}}{{BaseUri_PostRegion}}",
-							"host": [
-								"{{BaseUri_PreRegion}}{{UserPoolRegion}}{{BaseUri_PostRegion}}"
-							]
-						},
+						"url": "{{BaseUri_PreRegion}}{{UserPoolRegion}}{{BaseUri_PostRegion}}",
 						"description": "Confirms registration of a user and handles the existing alias from a previous user."
 					},
 					"response": []
@@ -400,12 +275,7 @@
 					"request": {
 						"method": "GET",
 						"header": [],
-						"url": {
-							"raw": "{{BaseUri_PreRegion}}{{UserPoolRegion}}{{BaseUri_PostRegion}}",
-							"host": [
-								"{{BaseUri_PreRegion}}{{UserPoolRegion}}{{BaseUri_PostRegion}}"
-							]
-						},
+						"url": "{{BaseUri_PreRegion}}{{UserPoolRegion}}{{BaseUri_PostRegion}}",
 						"description": "Confirms registration of a user and handles the existing alias from a previous user."
 					},
 					"response": []
@@ -415,12 +285,7 @@
 					"request": {
 						"method": "GET",
 						"header": [],
-						"url": {
-							"raw": "{{BaseUri_PreRegion}}{{UserPoolRegion}}{{BaseUri_PostRegion}}",
-							"host": [
-								"{{BaseUri_PreRegion}}{{UserPoolRegion}}{{BaseUri_PostRegion}}"
-							]
-						},
+						"url": "{{BaseUri_PreRegion}}{{UserPoolRegion}}{{BaseUri_PostRegion}}",
 						"description": "Confirms registration of a user and handles the existing alias from a previous user."
 					},
 					"response": []
@@ -430,12 +295,7 @@
 					"request": {
 						"method": "GET",
 						"header": [],
-						"url": {
-							"raw": "{{BaseUri_PreRegion}}{{UserPoolRegion}}{{BaseUri_PostRegion}}",
-							"host": [
-								"{{BaseUri_PreRegion}}{{UserPoolRegion}}{{BaseUri_PostRegion}}"
-							]
-						},
+						"url": "{{BaseUri_PreRegion}}{{UserPoolRegion}}{{BaseUri_PostRegion}}",
 						"description": "Confirms registration of a user and handles the existing alias from a previous user."
 					},
 					"response": []
@@ -445,12 +305,7 @@
 					"request": {
 						"method": "GET",
 						"header": [],
-						"url": {
-							"raw": "{{BaseUri_PreRegion}}{{UserPoolRegion}}{{BaseUri_PostRegion}}",
-							"host": [
-								"{{BaseUri_PreRegion}}{{UserPoolRegion}}{{BaseUri_PostRegion}}"
-							]
-						},
+						"url": "{{BaseUri_PreRegion}}{{UserPoolRegion}}{{BaseUri_PostRegion}}",
 						"description": "Confirms registration of a user and handles the existing alias from a previous user."
 					},
 					"response": []
@@ -460,12 +315,7 @@
 					"request": {
 						"method": "GET",
 						"header": [],
-						"url": {
-							"raw": "{{BaseUri_PreRegion}}{{UserPoolRegion}}{{BaseUri_PostRegion}}",
-							"host": [
-								"{{BaseUri_PreRegion}}{{UserPoolRegion}}{{BaseUri_PostRegion}}"
-							]
-						},
+						"url": "{{BaseUri_PreRegion}}{{UserPoolRegion}}{{BaseUri_PostRegion}}",
 						"description": "Confirms registration of a user and handles the existing alias from a previous user."
 					},
 					"response": []
@@ -475,12 +325,7 @@
 					"request": {
 						"method": "GET",
 						"header": [],
-						"url": {
-							"raw": "{{BaseUri_PreRegion}}{{UserPoolRegion}}{{BaseUri_PostRegion}}",
-							"host": [
-								"{{BaseUri_PreRegion}}{{UserPoolRegion}}{{BaseUri_PostRegion}}"
-							]
-						},
+						"url": "{{BaseUri_PreRegion}}{{UserPoolRegion}}{{BaseUri_PostRegion}}",
 						"description": "Confirms registration of a user and handles the existing alias from a previous user."
 					},
 					"response": []
@@ -490,12 +335,7 @@
 					"request": {
 						"method": "GET",
 						"header": [],
-						"url": {
-							"raw": "{{BaseUri_PreRegion}}{{UserPoolRegion}}{{BaseUri_PostRegion}}",
-							"host": [
-								"{{BaseUri_PreRegion}}{{UserPoolRegion}}{{BaseUri_PostRegion}}"
-							]
-						},
+						"url": "{{BaseUri_PreRegion}}{{UserPoolRegion}}{{BaseUri_PostRegion}}",
 						"description": "Confirms registration of a user and handles the existing alias from a previous user."
 					},
 					"response": []
@@ -505,12 +345,7 @@
 					"request": {
 						"method": "GET",
 						"header": [],
-						"url": {
-							"raw": "{{BaseUri_PreRegion}}{{UserPoolRegion}}{{BaseUri_PostRegion}}",
-							"host": [
-								"{{BaseUri_PreRegion}}{{UserPoolRegion}}{{BaseUri_PostRegion}}"
-							]
-						},
+						"url": "{{BaseUri_PreRegion}}{{UserPoolRegion}}{{BaseUri_PostRegion}}",
 						"description": "Confirms registration of a user and handles the existing alias from a previous user."
 					},
 					"response": []
@@ -520,12 +355,7 @@
 					"request": {
 						"method": "GET",
 						"header": [],
-						"url": {
-							"raw": "{{BaseUri_PreRegion}}{{UserPoolRegion}}{{BaseUri_PostRegion}}",
-							"host": [
-								"{{BaseUri_PreRegion}}{{UserPoolRegion}}{{BaseUri_PostRegion}}"
-							]
-						},
+						"url": "{{BaseUri_PreRegion}}{{UserPoolRegion}}{{BaseUri_PostRegion}}",
 						"description": "Confirms registration of a user and handles the existing alias from a previous user."
 					},
 					"response": []
@@ -535,12 +365,7 @@
 					"request": {
 						"method": "GET",
 						"header": [],
-						"url": {
-							"raw": "{{BaseUri_PreRegion}}{{UserPoolRegion}}{{BaseUri_PostRegion}}",
-							"host": [
-								"{{BaseUri_PreRegion}}{{UserPoolRegion}}{{BaseUri_PostRegion}}"
-							]
-						},
+						"url": "{{BaseUri_PreRegion}}{{UserPoolRegion}}{{BaseUri_PostRegion}}",
 						"description": "Confirms registration of a user and handles the existing alias from a previous user."
 					},
 					"response": []
@@ -550,12 +375,7 @@
 					"request": {
 						"method": "GET",
 						"header": [],
-						"url": {
-							"raw": "{{BaseUri_PreRegion}}{{UserPoolRegion}}{{BaseUri_PostRegion}}",
-							"host": [
-								"{{BaseUri_PreRegion}}{{UserPoolRegion}}{{BaseUri_PostRegion}}"
-							]
-						},
+						"url": "{{BaseUri_PreRegion}}{{UserPoolRegion}}{{BaseUri_PostRegion}}",
 						"description": "Confirms registration of a user and handles the existing alias from a previous user."
 					},
 					"response": []
@@ -565,12 +385,7 @@
 					"request": {
 						"method": "GET",
 						"header": [],
-						"url": {
-							"raw": "{{BaseUri_PreRegion}}{{UserPoolRegion}}{{BaseUri_PostRegion}}",
-							"host": [
-								"{{BaseUri_PreRegion}}{{UserPoolRegion}}{{BaseUri_PostRegion}}"
-							]
-						},
+						"url": "{{BaseUri_PreRegion}}{{UserPoolRegion}}{{BaseUri_PostRegion}}",
 						"description": "Confirms registration of a user and handles the existing alias from a previous user."
 					},
 					"response": []
@@ -580,12 +395,7 @@
 					"request": {
 						"method": "GET",
 						"header": [],
-						"url": {
-							"raw": "{{BaseUri_PreRegion}}{{UserPoolRegion}}{{BaseUri_PostRegion}}",
-							"host": [
-								"{{BaseUri_PreRegion}}{{UserPoolRegion}}{{BaseUri_PostRegion}}"
-							]
-						},
+						"url": "{{BaseUri_PreRegion}}{{UserPoolRegion}}{{BaseUri_PostRegion}}",
 						"description": "Confirms registration of a user and handles the existing alias from a previous user."
 					},
 					"response": []
@@ -595,12 +405,7 @@
 					"request": {
 						"method": "GET",
 						"header": [],
-						"url": {
-							"raw": "{{BaseUri_PreRegion}}{{UserPoolRegion}}{{BaseUri_PostRegion}}",
-							"host": [
-								"{{BaseUri_PreRegion}}{{UserPoolRegion}}{{BaseUri_PostRegion}}"
-							]
-						},
+						"url": "{{BaseUri_PreRegion}}{{UserPoolRegion}}{{BaseUri_PostRegion}}",
 						"description": "Confirms registration of a user and handles the existing alias from a previous user."
 					},
 					"response": []
@@ -610,12 +415,7 @@
 					"request": {
 						"method": "GET",
 						"header": [],
-						"url": {
-							"raw": "{{BaseUri_PreRegion}}{{UserPoolRegion}}{{BaseUri_PostRegion}}",
-							"host": [
-								"{{BaseUri_PreRegion}}{{UserPoolRegion}}{{BaseUri_PostRegion}}"
-							]
-						},
+						"url": "{{BaseUri_PreRegion}}{{UserPoolRegion}}{{BaseUri_PostRegion}}",
 						"description": "Confirms registration of a user and handles the existing alias from a previous user."
 					},
 					"response": []
@@ -625,12 +425,7 @@
 					"request": {
 						"method": "GET",
 						"header": [],
-						"url": {
-							"raw": "{{BaseUri_PreRegion}}{{UserPoolRegion}}{{BaseUri_PostRegion}}",
-							"host": [
-								"{{BaseUri_PreRegion}}{{UserPoolRegion}}{{BaseUri_PostRegion}}"
-							]
-						},
+						"url": "{{BaseUri_PreRegion}}{{UserPoolRegion}}{{BaseUri_PostRegion}}",
 						"description": "Confirms registration of a user and handles the existing alias from a previous user."
 					},
 					"response": []
@@ -640,12 +435,7 @@
 					"request": {
 						"method": "GET",
 						"header": [],
-						"url": {
-							"raw": "{{BaseUri_PreRegion}}{{UserPoolRegion}}{{BaseUri_PostRegion}}",
-							"host": [
-								"{{BaseUri_PreRegion}}{{UserPoolRegion}}{{BaseUri_PostRegion}}"
-							]
-						},
+						"url": "{{BaseUri_PreRegion}}{{UserPoolRegion}}{{BaseUri_PostRegion}}",
 						"description": "Confirms registration of a user and handles the existing alias from a previous user."
 					},
 					"response": []
@@ -655,12 +445,7 @@
 					"request": {
 						"method": "GET",
 						"header": [],
-						"url": {
-							"raw": "{{BaseUri_PreRegion}}{{UserPoolRegion}}{{BaseUri_PostRegion}}",
-							"host": [
-								"{{BaseUri_PreRegion}}{{UserPoolRegion}}{{BaseUri_PostRegion}}"
-							]
-						},
+						"url": "{{BaseUri_PreRegion}}{{UserPoolRegion}}{{BaseUri_PostRegion}}",
 						"description": "Confirms registration of a user and handles the existing alias from a previous user."
 					},
 					"response": []
@@ -670,12 +455,7 @@
 					"request": {
 						"method": "GET",
 						"header": [],
-						"url": {
-							"raw": "{{BaseUri_PreRegion}}{{UserPoolRegion}}{{BaseUri_PostRegion}}",
-							"host": [
-								"{{BaseUri_PreRegion}}{{UserPoolRegion}}{{BaseUri_PostRegion}}"
-							]
-						},
+						"url": "{{BaseUri_PreRegion}}{{UserPoolRegion}}{{BaseUri_PostRegion}}",
 						"description": "Confirms registration of a user and handles the existing alias from a previous user."
 					},
 					"response": []
@@ -685,12 +465,7 @@
 					"request": {
 						"method": "GET",
 						"header": [],
-						"url": {
-							"raw": "{{BaseUri_PreRegion}}{{UserPoolRegion}}{{BaseUri_PostRegion}}",
-							"host": [
-								"{{BaseUri_PreRegion}}{{UserPoolRegion}}{{BaseUri_PostRegion}}"
-							]
-						},
+						"url": "{{BaseUri_PreRegion}}{{UserPoolRegion}}{{BaseUri_PostRegion}}",
 						"description": "Confirms registration of a user and handles the existing alias from a previous user."
 					},
 					"response": []
@@ -700,12 +475,7 @@
 					"request": {
 						"method": "GET",
 						"header": [],
-						"url": {
-							"raw": "{{BaseUri_PreRegion}}{{UserPoolRegion}}{{BaseUri_PostRegion}}",
-							"host": [
-								"{{BaseUri_PreRegion}}{{UserPoolRegion}}{{BaseUri_PostRegion}}"
-							]
-						},
+						"url": "{{BaseUri_PreRegion}}{{UserPoolRegion}}{{BaseUri_PostRegion}}",
 						"description": "Confirms registration of a user and handles the existing alias from a previous user."
 					},
 					"response": []
@@ -715,12 +485,7 @@
 					"request": {
 						"method": "GET",
 						"header": [],
-						"url": {
-							"raw": "{{BaseUri_PreRegion}}{{UserPoolRegion}}{{BaseUri_PostRegion}}",
-							"host": [
-								"{{BaseUri_PreRegion}}{{UserPoolRegion}}{{BaseUri_PostRegion}}"
-							]
-						},
+						"url": "{{BaseUri_PreRegion}}{{UserPoolRegion}}{{BaseUri_PostRegion}}",
 						"description": "Confirms registration of a user and handles the existing alias from a previous user."
 					},
 					"response": []
@@ -730,12 +495,7 @@
 					"request": {
 						"method": "GET",
 						"header": [],
-						"url": {
-							"raw": "{{BaseUri_PreRegion}}{{UserPoolRegion}}{{BaseUri_PostRegion}}",
-							"host": [
-								"{{BaseUri_PreRegion}}{{UserPoolRegion}}{{BaseUri_PostRegion}}"
-							]
-						},
+						"url": "{{BaseUri_PreRegion}}{{UserPoolRegion}}{{BaseUri_PostRegion}}",
 						"description": "Confirms registration of a user and handles the existing alias from a previous user."
 					},
 					"response": []
@@ -745,12 +505,7 @@
 					"request": {
 						"method": "GET",
 						"header": [],
-						"url": {
-							"raw": "{{BaseUri_PreRegion}}{{UserPoolRegion}}{{BaseUri_PostRegion}}",
-							"host": [
-								"{{BaseUri_PreRegion}}{{UserPoolRegion}}{{BaseUri_PostRegion}}"
-							]
-						},
+						"url": "{{BaseUri_PreRegion}}{{UserPoolRegion}}{{BaseUri_PostRegion}}",
 						"description": "Confirms registration of a user and handles the existing alias from a previous user."
 					},
 					"response": []
@@ -760,12 +515,7 @@
 					"request": {
 						"method": "GET",
 						"header": [],
-						"url": {
-							"raw": "{{BaseUri_PreRegion}}{{UserPoolRegion}}{{BaseUri_PostRegion}}",
-							"host": [
-								"{{BaseUri_PreRegion}}{{UserPoolRegion}}{{BaseUri_PostRegion}}"
-							]
-						},
+						"url": "{{BaseUri_PreRegion}}{{UserPoolRegion}}{{BaseUri_PostRegion}}",
 						"description": "Confirms registration of a user and handles the existing alias from a previous user."
 					},
 					"response": []
@@ -775,12 +525,7 @@
 					"request": {
 						"method": "GET",
 						"header": [],
-						"url": {
-							"raw": "{{BaseUri_PreRegion}}{{UserPoolRegion}}{{BaseUri_PostRegion}}",
-							"host": [
-								"{{BaseUri_PreRegion}}{{UserPoolRegion}}{{BaseUri_PostRegion}}"
-							]
-						},
+						"url": "{{BaseUri_PreRegion}}{{UserPoolRegion}}{{BaseUri_PostRegion}}",
 						"description": "Confirms registration of a user and handles the existing alias from a previous user."
 					},
 					"response": []
@@ -790,12 +535,7 @@
 					"request": {
 						"method": "GET",
 						"header": [],
-						"url": {
-							"raw": "{{BaseUri_PreRegion}}{{UserPoolRegion}}{{BaseUri_PostRegion}}",
-							"host": [
-								"{{BaseUri_PreRegion}}{{UserPoolRegion}}{{BaseUri_PostRegion}}"
-							]
-						},
+						"url": "{{BaseUri_PreRegion}}{{UserPoolRegion}}{{BaseUri_PostRegion}}",
 						"description": "Confirms registration of a user and handles the existing alias from a previous user."
 					},
 					"response": []
@@ -805,12 +545,7 @@
 					"request": {
 						"method": "GET",
 						"header": [],
-						"url": {
-							"raw": "{{BaseUri_PreRegion}}{{UserPoolRegion}}{{BaseUri_PostRegion}}",
-							"host": [
-								"{{BaseUri_PreRegion}}{{UserPoolRegion}}{{BaseUri_PostRegion}}"
-							]
-						},
+						"url": "{{BaseUri_PreRegion}}{{UserPoolRegion}}{{BaseUri_PostRegion}}",
 						"description": "Confirms registration of a user and handles the existing alias from a previous user."
 					},
 					"response": []
@@ -820,12 +555,7 @@
 					"request": {
 						"method": "GET",
 						"header": [],
-						"url": {
-							"raw": "{{BaseUri_PreRegion}}{{UserPoolRegion}}{{BaseUri_PostRegion}}",
-							"host": [
-								"{{BaseUri_PreRegion}}{{UserPoolRegion}}{{BaseUri_PostRegion}}"
-							]
-						},
+						"url": "{{BaseUri_PreRegion}}{{UserPoolRegion}}{{BaseUri_PostRegion}}",
 						"description": "Confirms registration of a user and handles the existing alias from a previous user."
 					},
 					"response": []
@@ -835,12 +565,7 @@
 					"request": {
 						"method": "GET",
 						"header": [],
-						"url": {
-							"raw": "{{BaseUri_PreRegion}}{{UserPoolRegion}}{{BaseUri_PostRegion}}",
-							"host": [
-								"{{BaseUri_PreRegion}}{{UserPoolRegion}}{{BaseUri_PostRegion}}"
-							]
-						},
+						"url": "{{BaseUri_PreRegion}}{{UserPoolRegion}}{{BaseUri_PostRegion}}",
 						"description": "Confirms registration of a user and handles the existing alias from a previous user."
 					},
 					"response": []
@@ -850,12 +575,7 @@
 					"request": {
 						"method": "GET",
 						"header": [],
-						"url": {
-							"raw": "{{BaseUri_PreRegion}}{{UserPoolRegion}}{{BaseUri_PostRegion}}",
-							"host": [
-								"{{BaseUri_PreRegion}}{{UserPoolRegion}}{{BaseUri_PostRegion}}"
-							]
-						},
+						"url": "{{BaseUri_PreRegion}}{{UserPoolRegion}}{{BaseUri_PostRegion}}",
 						"description": "Confirms registration of a user and handles the existing alias from a previous user."
 					},
 					"response": []
@@ -865,12 +585,7 @@
 					"request": {
 						"method": "GET",
 						"header": [],
-						"url": {
-							"raw": "{{BaseUri_PreRegion}}{{UserPoolRegion}}{{BaseUri_PostRegion}}",
-							"host": [
-								"{{BaseUri_PreRegion}}{{UserPoolRegion}}{{BaseUri_PostRegion}}"
-							]
-						},
+						"url": "{{BaseUri_PreRegion}}{{UserPoolRegion}}{{BaseUri_PostRegion}}",
 						"description": "Confirms registration of a user and handles the existing alias from a previous user."
 					},
 					"response": []
@@ -880,12 +595,7 @@
 					"request": {
 						"method": "GET",
 						"header": [],
-						"url": {
-							"raw": "{{BaseUri_PreRegion}}{{UserPoolRegion}}{{BaseUri_PostRegion}}",
-							"host": [
-								"{{BaseUri_PreRegion}}{{UserPoolRegion}}{{BaseUri_PostRegion}}"
-							]
-						},
+						"url": "{{BaseUri_PreRegion}}{{UserPoolRegion}}{{BaseUri_PostRegion}}",
 						"description": "Confirms registration of a user and handles the existing alias from a previous user."
 					},
 					"response": []
@@ -895,12 +605,7 @@
 					"request": {
 						"method": "GET",
 						"header": [],
-						"url": {
-							"raw": "{{BaseUri_PreRegion}}{{UserPoolRegion}}{{BaseUri_PostRegion}}",
-							"host": [
-								"{{BaseUri_PreRegion}}{{UserPoolRegion}}{{BaseUri_PostRegion}}"
-							]
-						},
+						"url": "{{BaseUri_PreRegion}}{{UserPoolRegion}}{{BaseUri_PostRegion}}",
 						"description": "Confirms registration of a user and handles the existing alias from a previous user."
 					},
 					"response": []
@@ -910,12 +615,7 @@
 					"request": {
 						"method": "GET",
 						"header": [],
-						"url": {
-							"raw": "{{BaseUri_PreRegion}}{{UserPoolRegion}}{{BaseUri_PostRegion}}",
-							"host": [
-								"{{BaseUri_PreRegion}}{{UserPoolRegion}}{{BaseUri_PostRegion}}"
-							]
-						},
+						"url": "{{BaseUri_PreRegion}}{{UserPoolRegion}}{{BaseUri_PostRegion}}",
 						"description": "Confirms registration of a user and handles the existing alias from a previous user."
 					},
 					"response": []
@@ -925,12 +625,7 @@
 					"request": {
 						"method": "GET",
 						"header": [],
-						"url": {
-							"raw": "{{BaseUri_PreRegion}}{{UserPoolRegion}}{{BaseUri_PostRegion}}",
-							"host": [
-								"{{BaseUri_PreRegion}}{{UserPoolRegion}}{{BaseUri_PostRegion}}"
-							]
-						},
+						"url": "{{BaseUri_PreRegion}}{{UserPoolRegion}}{{BaseUri_PostRegion}}",
 						"description": "Confirms registration of a user and handles the existing alias from a previous user."
 					},
 					"response": []
@@ -940,12 +635,7 @@
 					"request": {
 						"method": "GET",
 						"header": [],
-						"url": {
-							"raw": "{{BaseUri_PreRegion}}{{UserPoolRegion}}{{BaseUri_PostRegion}}",
-							"host": [
-								"{{BaseUri_PreRegion}}{{UserPoolRegion}}{{BaseUri_PostRegion}}"
-							]
-						},
+						"url": "{{BaseUri_PreRegion}}{{UserPoolRegion}}{{BaseUri_PostRegion}}",
 						"description": "Confirms registration of a user and handles the existing alias from a previous user."
 					},
 					"response": []
@@ -955,12 +645,7 @@
 					"request": {
 						"method": "GET",
 						"header": [],
-						"url": {
-							"raw": "{{BaseUri_PreRegion}}{{UserPoolRegion}}{{BaseUri_PostRegion}}",
-							"host": [
-								"{{BaseUri_PreRegion}}{{UserPoolRegion}}{{BaseUri_PostRegion}}"
-							]
-						},
+						"url": "{{BaseUri_PreRegion}}{{UserPoolRegion}}{{BaseUri_PostRegion}}",
 						"description": "Confirms registration of a user and handles the existing alias from a previous user."
 					},
 					"response": []
@@ -970,12 +655,7 @@
 					"request": {
 						"method": "GET",
 						"header": [],
-						"url": {
-							"raw": "{{BaseUri_PreRegion}}{{UserPoolRegion}}{{BaseUri_PostRegion}}",
-							"host": [
-								"{{BaseUri_PreRegion}}{{UserPoolRegion}}{{BaseUri_PostRegion}}"
-							]
-						},
+						"url": "{{BaseUri_PreRegion}}{{UserPoolRegion}}{{BaseUri_PostRegion}}",
 						"description": "Confirms registration of a user and handles the existing alias from a previous user."
 					},
 					"response": []
@@ -985,12 +665,7 @@
 					"request": {
 						"method": "GET",
 						"header": [],
-						"url": {
-							"raw": "{{BaseUri_PreRegion}}{{UserPoolRegion}}{{BaseUri_PostRegion}}",
-							"host": [
-								"{{BaseUri_PreRegion}}{{UserPoolRegion}}{{BaseUri_PostRegion}}"
-							]
-						},
+						"url": "{{BaseUri_PreRegion}}{{UserPoolRegion}}{{BaseUri_PostRegion}}",
 						"description": "Confirms registration of a user and handles the existing alias from a previous user."
 					},
 					"response": []
@@ -1000,12 +675,7 @@
 					"request": {
 						"method": "GET",
 						"header": [],
-						"url": {
-							"raw": "{{BaseUri_PreRegion}}{{UserPoolRegion}}{{BaseUri_PostRegion}}",
-							"host": [
-								"{{BaseUri_PreRegion}}{{UserPoolRegion}}{{BaseUri_PostRegion}}"
-							]
-						},
+						"url": "{{BaseUri_PreRegion}}{{UserPoolRegion}}{{BaseUri_PostRegion}}",
 						"description": "Confirms registration of a user and handles the existing alias from a previous user."
 					},
 					"response": []
@@ -1015,12 +685,7 @@
 					"request": {
 						"method": "GET",
 						"header": [],
-						"url": {
-							"raw": "{{BaseUri_PreRegion}}{{UserPoolRegion}}{{BaseUri_PostRegion}}",
-							"host": [
-								"{{BaseUri_PreRegion}}{{UserPoolRegion}}{{BaseUri_PostRegion}}"
-							]
-						},
+						"url": "{{BaseUri_PreRegion}}{{UserPoolRegion}}{{BaseUri_PostRegion}}",
 						"description": "Confirms registration of a user and handles the existing alias from a previous user."
 					},
 					"response": []
@@ -1030,12 +695,7 @@
 					"request": {
 						"method": "GET",
 						"header": [],
-						"url": {
-							"raw": "{{BaseUri_PreRegion}}{{UserPoolRegion}}{{BaseUri_PostRegion}}",
-							"host": [
-								"{{BaseUri_PreRegion}}{{UserPoolRegion}}{{BaseUri_PostRegion}}"
-							]
-						},
+						"url": "{{BaseUri_PreRegion}}{{UserPoolRegion}}{{BaseUri_PostRegion}}",
 						"description": "Confirms registration of a user and handles the existing alias from a previous user."
 					},
 					"response": []
@@ -1045,12 +705,7 @@
 					"request": {
 						"method": "GET",
 						"header": [],
-						"url": {
-							"raw": "{{BaseUri_PreRegion}}{{UserPoolRegion}}{{BaseUri_PostRegion}}",
-							"host": [
-								"{{BaseUri_PreRegion}}{{UserPoolRegion}}{{BaseUri_PostRegion}}"
-							]
-						},
+						"url": "{{BaseUri_PreRegion}}{{UserPoolRegion}}{{BaseUri_PostRegion}}",
 						"description": "Confirms registration of a user and handles the existing alias from a previous user."
 					},
 					"response": []
@@ -1060,12 +715,7 @@
 					"request": {
 						"method": "GET",
 						"header": [],
-						"url": {
-							"raw": "{{BaseUri_PreRegion}}{{UserPoolRegion}}{{BaseUri_PostRegion}}",
-							"host": [
-								"{{BaseUri_PreRegion}}{{UserPoolRegion}}{{BaseUri_PostRegion}}"
-							]
-						},
+						"url": "{{BaseUri_PreRegion}}{{UserPoolRegion}}{{BaseUri_PostRegion}}",
 						"description": "Confirms registration of a user and handles the existing alias from a previous user."
 					},
 					"response": []
@@ -1075,12 +725,7 @@
 					"request": {
 						"method": "GET",
 						"header": [],
-						"url": {
-							"raw": "{{BaseUri_PreRegion}}{{UserPoolRegion}}{{BaseUri_PostRegion}}",
-							"host": [
-								"{{BaseUri_PreRegion}}{{UserPoolRegion}}{{BaseUri_PostRegion}}"
-							]
-						},
+						"url": "{{BaseUri_PreRegion}}{{UserPoolRegion}}{{BaseUri_PostRegion}}",
 						"description": "Confirms registration of a user and handles the existing alias from a previous user."
 					},
 					"response": []
@@ -1090,12 +735,7 @@
 					"request": {
 						"method": "GET",
 						"header": [],
-						"url": {
-							"raw": "{{BaseUri_PreRegion}}{{UserPoolRegion}}{{BaseUri_PostRegion}}",
-							"host": [
-								"{{BaseUri_PreRegion}}{{UserPoolRegion}}{{BaseUri_PostRegion}}"
-							]
-						},
+						"url": "{{BaseUri_PreRegion}}{{UserPoolRegion}}{{BaseUri_PostRegion}}",
 						"description": "Confirms registration of a user and handles the existing alias from a previous user."
 					},
 					"response": []
@@ -1105,12 +745,7 @@
 					"request": {
 						"method": "GET",
 						"header": [],
-						"url": {
-							"raw": "{{BaseUri_PreRegion}}{{UserPoolRegion}}{{BaseUri_PostRegion}}",
-							"host": [
-								"{{BaseUri_PreRegion}}{{UserPoolRegion}}{{BaseUri_PostRegion}}"
-							]
-						},
+						"url": "{{BaseUri_PreRegion}}{{UserPoolRegion}}{{BaseUri_PostRegion}}",
 						"description": "Confirms registration of a user and handles the existing alias from a previous user."
 					},
 					"response": []
@@ -1120,12 +755,7 @@
 					"request": {
 						"method": "GET",
 						"header": [],
-						"url": {
-							"raw": "{{BaseUri_PreRegion}}{{UserPoolRegion}}{{BaseUri_PostRegion}}",
-							"host": [
-								"{{BaseUri_PreRegion}}{{UserPoolRegion}}{{BaseUri_PostRegion}}"
-							]
-						},
+						"url": "{{BaseUri_PreRegion}}{{UserPoolRegion}}{{BaseUri_PostRegion}}",
 						"description": "Confirms registration of a user and handles the existing alias from a previous user."
 					},
 					"response": []
@@ -1163,17 +793,17 @@
 	],
 	"variable": [
 		{
-			"id": "d68bcc46-828f-4fab-8d61-3b74acbf4612",
+			"id": "eeb80e67-d898-474a-8710-ccf89eb73028",
 			"key": "UserPoolRegion",
 			"value": "us-west-2"
 		},
 		{
-			"id": "18b2447f-0489-4875-b1fe-29bf5ac6cfd4",
+			"id": "add77ddb-6aa0-46c3-b4cc-c142d93b87a5",
 			"key": "BaseUri_PreRegion",
 			"value": "https://cognito-idp.{{UserPoolRegion}}.amazonaws.com/"
 		},
 		{
-			"id": "19b583ab-bfde-4ad3-a68c-16ebea08a6d4",
+			"id": "ac1387dc-5f02-4fe8-b9b5-33bfa0904af7",
 			"key": "BaseUri_PostRegion",
 			"value": ".amazonaws.com/"
 		}
